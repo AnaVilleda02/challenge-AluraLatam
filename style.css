@@ -1,0 +1,118 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.titulo{
+    padding: 30px;
+    margin-top: 25px;
+    background: url(imagenes/dados.jpg);
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-style: oblique;
+    
+}
+
+main{
+    display: flex;
+    background: url(imagenes/neon.jpg);
+    align-items: center;   
+}
+
+main img{
+    margin-top: 10%;
+    margin-left: 5px;
+    padding-left: 10px;
+    
+}
+
+
+.input-text{
+    margin-top: 30px;
+    margin-left: 150px;
+    color: #0a1860;
+    padding: 35px;
+    font-size: 30px;
+    height:356px;
+    width: 688px;
+    border-radius: 35px;
+    text-align:justify;
+}
+
+.input-text-area{
+    height: 560px;
+    width: 420px;
+    position: center;
+    margin-top: 20px;
+    margin-left: 90px;
+    color: #0a1860;
+    font-size: 30px;
+    padding: 35px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+h3{
+    font-weight: 30px;
+    margin-left: 150px;
+    padding: 25px;
+    font-weight: bold;
+
+}
+
+.miboton button:active{
+    color: #90d409;
+    border-color: #0a1860;
+    font-size: 33px;
+    border-style: dotted 5px;
+    padding: 3px;
+    font-family: 'Lucida Sans' sans-serif;
+}
+
+button{
+    margin-left: 110px;
+    left: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 228px;
+    height: 67px;
+    border: 3px solid #0a1860;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    border-color: #90d409;
+    border-style: dashed;
+    
+}
+
+
+.imagen{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1060px;
+    top: 300px;
+    padding: 130px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 30px;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 40px auto;
+    background: url(imagenes/dados.jpg);
+
+}
