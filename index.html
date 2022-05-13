@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+    <html lang="esp">
+
+        <head>
+            <meta charset="utf-8">
+            <title> Encriptador de texto </title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+            
+        </head>
+            <body>
+                <header>
+                    <div class="titulo">
+                        <h2> Mi código secreto es .....</h2>
+                    </div>                         
+                </header>
+                    <main>
+                            <ul><img src="imagenes/Logo.png"></ul>
+
+                        <section>
+                                <textarea id="miregreso" name="text" class="input-text" col="60" rows="6" placeholder="Ingrese su texto aquí"></textarea>
+
+                                <h3> &#10071 &#10071 Solo letras minúsculas y sin acentos</h3>
+                                    
+                            <div class="miboton">
+                                <button type="button" onclick="btnencriptar()">Encriptar</button>
+                                <button type="button" onclick="btndesencriptar()"> Desencriptar</button>
+                            </div>
+                        </section>
+
+                        <section>
+                            <textarea id="miTexto" name="text" col="15" rows="6" class="input-text-area" " placeholder="Tú mensaje encriptado aparecera aquí..."></textarea>
+                            
+                        </section>
+                            <div class="imagen">
+                                <img src="imagenes/Muñecomuñeco.svg">
+                            </div>
+
+                            <div class="miboton">
+                                <button id="co" onclick="copy()"> Copia </button>
+                            </div>
+                    </main> 
+                    <footer>
+                        <p>	&#169  Ana Villeda - Alura Challenge &#127942</p>
+                    </footer>   
+            </body>
+            <script src="script.js"></script>
+    </html>
